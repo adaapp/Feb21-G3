@@ -6,6 +6,8 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import './App.css';
+import videoIcon from './videoIcon.png';
+import keyboardIcon from './keyboardIcon.jpg';
 
 
 
@@ -22,28 +24,19 @@ function HomePage(){
         <Row>
             <Col>
             <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src= {videoIcon} />
             <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-             the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button variant="primary" style={{"margin-left": '4rem'}}>Video Call</Button>
              </Card.Body>
             </Card>
             </Col>
             
             <Col>
             <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={keyboardIcon} />
             <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-             the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            
+            <Button variant="primary" style={{"margin-left": '4rem'}}>Text Chat</Button>
              </Card.Body>
             </Card>
             </Col>
