@@ -5,11 +5,15 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import tabletIcon from './assets/tablet.png'
+import pictographicIcon from './assets/pictographic.png'
+import helpIcon from './assets/help.png'
+import equipmentIcon from './assets/equipment.png'
 import './App.css';
 
 
 
-function HomePage(){
+function LinkPage(){
     return(
         
         <Container fluid>
@@ -17,45 +21,36 @@ function HomePage(){
         <Row>
             <Col>
             <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={tabletIcon}/>
             <Card.Body>
             <Button variant="primary" style={{"margin-left": '4rem'}}>Redeem Your Free Tablet</Button>
              </Card.Body>
             </Card>
             </Col>
-            
+
             <Col>
             <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={pictographicIcon}/>
             <Card.Body>
-            
             <Button variant="primary" style={{"margin-left": '4rem'}}>Pictographic Symbols</Button>
              </Card.Body>
             </Card>
             </Col>
+
             <Col>
             <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={helpIcon}/>
             <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-             the card's content.
-            </Card.Text>
-            <Button variant="primary">something 3</Button>
+            <Button variant="primary">Scope Advice & Support</Button>
              </Card.Body>
             </Card>
             </Col>
+
             <Col>
             <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={equipmentIcon}/>
             <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-             the card's content.
-            </Card.Text>
-            <Button variant="primary">something 4</Button>
+            <Button variant="primary">Redeem Accessiblity Equipment</Button>
              </Card.Body>
             </Card>
             </Col>
@@ -65,4 +60,4 @@ function HomePage(){
     );
 }
 
-export default HomePage;
+export default LinkPage;
