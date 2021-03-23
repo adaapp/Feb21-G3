@@ -6,8 +6,23 @@
   margin-top: 50px;
 }
 
+.top-curve{
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  color:#0099ff;
+  text-align: center;
+  margin-bottom: 100px;
+}
 
+.bottom-curve{
+  height: 75%;
+}
 
+.button{
+  text-align: center;
+}
 
 
 
