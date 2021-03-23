@@ -1,14 +1,17 @@
 import React from 'react';
+import TopCurve from './TopCurve.js';
+import BottomCurve from './BottomCurve.js'
 import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import './App.css';
-import videoIcon from './videoIcon.png';
-import keyboardIcon from './keyboardIcon.jpg';
-import linkIcon from './linkIcon.png';
+
+import videoIcon from './assets/videoIcon.png';
+import keyboardIcon from './assets/keyboardIcon.jpg';
+import gamesIcon from './assets/gameIcon.png';
+import linkIcon from './assets/linkIcon.png';
 
 
 
@@ -16,18 +19,14 @@ function HomePage(){
     return(
         
         <Container fluid>
-         <Navbar className="mb-0" bg="dark" variant="dark" expand="lg">
-            <Navbar.Brand style={ {color:"white" } }> Access4All</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">            
-            </Navbar.Collapse>
-        </Navbar>
-        <Row>
+        <TopCurve heading = 'Home Page'/>
+        
+        <Row style={{"marginTop": '4rem'}}>
             <Col>
             <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src= {videoIcon} />
             <Card.Body>
-            <Button variant="primary" style={{"margin-left": '4rem'}}>Video Call</Button>
+            <Button variant="primary" style={{"marginLeft": '4rem'}}>Video Call</Button>
              </Card.Body>
             </Card>
             </Col>
@@ -37,37 +36,30 @@ function HomePage(){
             <Card.Img variant="top" src={keyboardIcon} />
             <Card.Body>
             
-            <Button variant="primary" style={{"margin-left": '4rem'}}>Text Chat</Button>
+            <Button variant="primary" style={{"marginLeft": '4rem'}}>Text Chat</Button>
              </Card.Body>
             </Card>
             </Col>
             <Col>
             <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={gamesIcon} />
             <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-             the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-             </Card.Body>
+            <Button variant="primary" style={{"marginLeft": '4rem'}}>Play Games</Button>
+            </Card.Body>
             </Card>
             </Col>
             <Col>
             <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={linkIcon} />
+           
             <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-             the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button variant="primary" style={{"marginLeft": '4rem'}}>Helpful Links</Button>
              </Card.Body>
             </Card>
             </Col>
         </Row>
+        <BottomCurve/>
+        
     </Container>
         
     );
