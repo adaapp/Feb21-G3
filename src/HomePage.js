@@ -8,6 +8,7 @@ import Button from 'react-bootstrap/Button';
 import './App.css';
 import videoIcon from './videoIcon.png';
 import keyboardIcon from './keyboardIcon.jpg';
+import linkIcon from './linkIcon.png';
 
 
 
@@ -55,7 +56,7 @@ function HomePage(){
             </Col>
             <Col>
             <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={linkIcon} />
             <Card.Body>
             <Card.Title>Card Title</Card.Title>
             <Card.Text>
