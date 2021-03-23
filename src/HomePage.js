@@ -7,10 +7,11 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import './App.css';
+
 import videoIcon from './assets/videoIcon.png';
 import keyboardIcon from './assets/keyboardIcon.jpg';
 import gamesIcon from './assets/gameIcon.png';
-import helpIcon from './assets/help.png';
+import linkIcon from './assets/linkIcon.png';
 
 
 
@@ -49,7 +50,8 @@ function HomePage(){
             </Col>
             <Col>
             <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={helpIcon} />
+            <Card.Img variant="top" src={linkIcon} />
+           
             <Card.Body>
             <Button variant="primary" style={{"marginLeft": '4rem'}}>Helpful Links</Button>
              </Card.Body>
