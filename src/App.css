@@ -5,11 +5,7 @@
   display: flex;
   flex-direction: column;
 }
-h1{
-  color:#0099ff;
-  text-align: center;
-  margin-bottom: 100px;
-}
+
 
 .bottom-curve{
   height: 75%;
@@ -23,7 +19,7 @@ h1{
   display: flex;
   flex-direction: column;
 }
-h1{
+.page-heading{
   color:#0099ff;
   text-align: center;
   margin-bottom: 100px;
@@ -36,9 +32,54 @@ h1{
 .button{
   text-align: center;
 }
-
+.heading{
+  background-color:#0099ff;
+  color: white;
+  text-align: center;
+  
+}
 .video-first-col{
   background-color: #0099ff;
+  margin-left: 1.25rem;
+  width: 50%;
+  color: white;
+}
+
+.video-second-col{
+  background-color: black;
+  color: white;
+}
+
+
+
+.video-text{
+  text-align: center;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  font-size: 30pt;
+}
+
+.call-contact{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.video-third-col{
+  background-color: #0099ff;
+  /* margin-right: 1.25rem; */
+  width:50%;
+}
+.contact-list{  
+  color: white;
+  
+}
+
+.contact-list h5{
+  text-align: center;
+
+}
+.contact-list h6{
+  text-align: center;
 }
 
 

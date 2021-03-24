@@ -8,18 +8,12 @@ import groupIcon from './assets/groupIcon.jpeg'
 import doubleIcon from './assets/doublepersoncall.jpeg'; 
 import mumIcon from './assets/mum.jpeg';
 import dadIcon from './assets/dadIcon.jpeg';
-import { useHistory} from 'react-router-dom';
+import dadFull from './assets/dadFull.jpeg';
 
 
 
 function VideoCall(){
-    let history = useHistory();
-
-    function callDad(){
-		history.push(`/calldad`)
-    }
-
-
+    
 
     return(
         <Container fluid>
@@ -31,8 +25,8 @@ function VideoCall(){
             <h5>Sign Language Translator</h5>
             </Col>
             <Col xs={6} className="video-second-col"> 
-            <div className="video-text">       
-             Click on one of the contacts to start a video call
+            <div className= "call-contact">     
+            <Image width="700" src={dadFull} />             
             </div>
             </Col>
             <Col className="video-third-col">
@@ -42,9 +36,8 @@ function VideoCall(){
             <Image width="200" className="rounded mx-auto d-block" src={groupIcon} />
             <Image width="200" className="rounded mx-auto d-block" src={doubleIcon} />
             <Image width="200" className="rounded mx-auto d-block" src={mumIcon} />
-            <Image width="200" className="rounded mx-auto d-block" src={dadIcon} onClick={callDad}/>
+            <Image width="200" className="rounded mx-auto d-block" src={dadIcon} />
             <Image width="200" className="rounded mx-auto d-block" src={doubleIcon} />
-
             </div>
              </Col>
         </Row>
