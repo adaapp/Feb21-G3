@@ -3,6 +3,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c57e28bf-0736-4e8a-bad9-18cdcd9c4900/deploy-status)](https://app.netlify.com/sites/elastic-jang-d81db5/deploys)
 
+[live site](https://elastic-jang-d81db5.netlify.app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
