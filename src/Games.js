@@ -19,7 +19,7 @@ function Games(){
         <TopCurve heading='Games'/>
         <Row>
             <Col>
-            <Card style={{ width: '18rem'}} style={{"marginLeft": '21rem'}}>
+            <Card style={{ width: '18rem'}}>
             <Card.Img variant="top" src={pongIcon}/>
             <Card.Body>
             <Button variant="primary" style={{"marginLeft": '5rem'}} >Pong</Button>
@@ -28,7 +28,7 @@ function Games(){
             </Col>
 
             <Col>
-            <Card style={{ width: '18rem'}} style={{"marginRight": '21rem'}}>
+            <Card style={{ width: '18rem'}} >
             <Card.Img variant="top" src={equipmentIcon}/>
             <Card.Body>
             <Button variant="primary" style={{"marginLeft": '4rem'}}  >to be defined</Button>
