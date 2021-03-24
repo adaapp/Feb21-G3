@@ -1,5 +1,8 @@
 # Access4All App Doccument
 
+This project was created as a demo for Dimansions UK during our launchpad at [Ada College](https://www.ada.ac.uk/).
+
+![Ada Logo](src/assets/ada_logo.png)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c57e28bf-0736-4e8a-bad9-18cdcd9c4900/deploy-status)](https://app.netlify.com/sites/elastic-jang-d81db5/deploys)
 
