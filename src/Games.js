@@ -19,7 +19,7 @@ function Games(){
         <TopCurve heading='Games'/>
         <Row>
             <Col>
-            <Card style={{ width: '18rem'}}>
+            <Card style={{ width: '18rem', "marginLeft":'5rem'}}>
             <Card.Img variant="top" src={pongIcon}/>
             <Card.Body>
             <Button variant="primary" style={{"marginLeft": '5rem'}} >Pong</Button>

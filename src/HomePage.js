@@ -56,7 +56,7 @@ function HomePage(){
             <Card.Img variant="top" onClick={navigateToWebChat} src={keyboardIcon} />
             <Card.Body>
             
-            <Button variant="primary" onClick={navigateToWebChat} style={{"marginLeft": '4rem'}}>Text Chat</Button>
+            <Button variant="primary" onClick={navigateToWebChat} style={{"marginLeft": '4rem'}}>Picto Chat</Button>
              </Card.Body>
             </Card>
             </Col>

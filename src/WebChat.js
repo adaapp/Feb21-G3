@@ -7,7 +7,7 @@ import BottomCurve from './BottomCurve.js'
 function WebChat(){
     return(
         <>
-            <TopCurve heading= "Web Chat"/>
+            <TopCurve heading= "Picto Chat"/>
             <BottomCurve/>
 
         </>
