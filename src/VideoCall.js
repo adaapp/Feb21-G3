@@ -4,10 +4,10 @@ import React from 'react';
 import TopCurve from './TopCurve.js'
 import BottomCurve from './BottomCurve.js'
 
-function WebChat(){
+function VideoCall(){
     return(
         <>
-            <TopCurve heading= "Web Chat"/>
+            <TopCurve heading= "Video Call"/>
             <BottomCurve/>
 
         </>
@@ -15,4 +15,4 @@ function WebChat(){
 
 }
 
-export default WebChat;
+export default VideoCall;

@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import HomePage from './HomePage.js';
+import VideoCall from './VideoCall.js'
 import LinkPage from './LinkPage';
 import WebChat from './WebChat.js'
 import Games from './Games.js';
@@ -10,6 +11,7 @@ const Routes = () => {
 		<BrowserRouter>
 			<Switch>
 				<Route exact path='/' component={HomePage} />
+				<Route path='/videocall' component={VideoCall} />
 				<Route path='/webchat' component={WebChat} />
 				<Route path='/games' component={Games} />
 				<Route path='/linkpage' component={LinkPage} />
