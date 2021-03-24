@@ -8,35 +8,64 @@ import Button from 'react-bootstrap/Button';
 import TopCurve from './TopCurve.js'
 import BottomCurve from './BottomCurve.js'
 
+import adarescueIcon from './assets/adarescue.png';
+import fuzzballIcon from './assets/fuzzball.png';
+import nutellaIcon from './assets/nutella.png';
+import babyIcon from './assets/baby.png';
 
-import pongIcon from './assets/pong.png';
-import equipmentIcon from './assets/equipment.png';
 
 
 function Games(){
     return(
         <Container fluid>
-        <TopCurve heading='Games'/>
-        <Row>
+        <TopCurve heading = 'Games'/>
+        
+        <Row style={{"marginTop": '4rem'}}>
             <Col>
-            <Card style={{ width: '18rem', "marginLeft":'5rem'}}>
-            <Card.Img variant="top" src={pongIcon}/>
+
+            <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" href="https://openprocessing.org/sketch/646959" target="_blank"
+             rel="noopener noreferrer" src= {adarescueIcon} />
             <Card.Body>
-            <Button variant="primary" style={{"marginLeft": '5rem'}} >Pong</Button>
+            <Button variant="primary" href="https://openprocessing.org/sketch/646959" target="_blank"
+             rel="noopener noreferrer" style={{"marginLeft": '4rem'}}>Ada Rescue</Button>
              </Card.Body>
             </Card>
             </Col>
-
+            
             <Col>
-            <Card style={{ width: '18rem'}} >
-            <Card.Img variant="top" src={equipmentIcon}/>
+            <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src={nutellaIcon} />
             <Card.Body>
-            <Button variant="primary" style={{"marginLeft": '4rem'}}  >to be defined</Button>
+            
+            <Button variant="primary" href= "https://nutella-goblinz-fuzzball-official.mrnutella.repl.co/" target="_blank"
+             rel="noopener noreferrer" style={{"marginLeft": '4rem'}}>Nutella Fling</Button>
+             </Card.Body>
+            </Card>
+            </Col>
+            <Col>
+            <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src={fuzzballIcon} />
+            <Card.Body>
+            <Button variant="primary"  href= "https://go-go-fuzzball-coconut.programye.repl.co/" target="_blank"
+             rel="noopener noreferrer" style={{"marginLeft": '4rem'}}>Fuzzball</Button>
+            </Card.Body>
+            </Card>
+            </Col>
+            <Col>
+
+            <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src={babyIcon} />
+           
+            <Card.Body>
+            <Button variant="primary" href= "https://baby-bandits-experimental.mrnutella.repl.co/" target="_blank"
+             rel="noopener noreferrer" style={{"marginLeft": '4rem'}}>Baby Bandents</Button>
              </Card.Body>
             </Card>
             </Col>
         </Row>
         <BottomCurve/>
+        
     </Container>
     );
 }
