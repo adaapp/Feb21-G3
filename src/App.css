@@ -44,7 +44,7 @@
   width: 50%;
   color: white;
 }
-.video-first-col h5{
+.video-first-col h2{
   text-align: center;
 
 }
@@ -62,9 +62,11 @@
 }
 .gif-box-call div{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-top: 1rem;
   text-align: center;
+  font-size: 25pt;
 }
 
 .video-second-col{
@@ -96,11 +98,11 @@
   
 }
 
-.contact-list h5{
+.contact-list h2{
   text-align: center;
 
 }
-.contact-list h6{
+.contact-list h3{
   text-align: center;
 }
 

@@ -31,7 +31,7 @@ function VideoCall(){
         
         <Row>
             <Col className="video-first-col">
-            <h5>Sign Language Translator</h5>
+            <h2>Sign Language Translator</h2>
             <div className="gif-box"></div>
             <div className="gif-box"></div>
             </Col>
@@ -42,8 +42,8 @@ function VideoCall(){
             </Col>
             <Col className="video-third-col">
             <div className="contact-list">
-            <h5>Contacts</h5>
-            <h6>Groups</h6>
+            <h2>Contacts</h2>
+            <h3>Groups</h3>
             <Image width="200" className="rounded mx-auto d-block" src={groupIcon} />
             <Image width="200" className="rounded mx-auto d-block" src={doubleIcon} />
             <Image width="200" className="rounded mx-auto d-block" src={dadIcon} onClick={callDad}/>
