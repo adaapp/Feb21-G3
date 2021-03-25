@@ -44,6 +44,28 @@
   width: 50%;
   color: white;
 }
+.video-first-col h5{
+  text-align: center;
+
+}
+
+.gif-box{
+  border:5px solid black;
+  margin-top: 5rem;
+  height: 200px;
+}
+
+.gif-box-call{
+  margin-top: 5rem;
+  /* margin-left: 1rem; */
+  height: 200px;
+}
+.gif-box-call div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  text-align: center;
+}
 
 .video-second-col{
   background-color: black;

@@ -32,6 +32,8 @@ function VideoCall(){
         <Row>
             <Col className="video-first-col">
             <h5>Sign Language Translator</h5>
+            <div className="gif-box"></div>
+            <div className="gif-box"></div>
             </Col>
             <Col xs={6} className="video-second-col"> 
             <div className="video-text">       

@@ -9,6 +9,7 @@ import doubleIcon from './assets/doublepersoncall.jpeg';
 import mumIcon from './assets/mum.jpeg';
 import dadIcon from './assets/dadIcon.jpeg';
 import dadFull from './assets/dadFull.jpeg';
+import signOne from './assets/signLanguage.gif';
 
 
 
@@ -20,9 +21,17 @@ function VideoCall(){
         <div className="heading">
         <h1>Video Chat</h1>
         </div>
+        
         <Row>
             <Col className="video-first-col">
-            <h5>Sign Language Translator</h5>
+             <h5>Sign Language Translator</h5>
+                <div className="gif-box-call">
+                    <Image width="200" className="rounded mx-auto d-block" src= {signOne}/>
+                    <div>
+                    <h6>Translated Text:</h6>
+                    <p>Traslated text would go here</p>
+                    </div>
+                </div>                
             </Col>
             <Col xs={6} className="video-second-col"> 
             <div className= "call-contact">     
