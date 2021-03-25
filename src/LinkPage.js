@@ -11,6 +11,7 @@ import helpIcon from './assets/help.png';
 import equipmentIcon from './assets/equipment.png';
 import TopCurve from './TopCurve.js';
 import BottomCurve from './BottomCurve.js';
+import BackButton from './BackButton.js';
 import './App.css';
 
 
@@ -20,6 +21,7 @@ function LinkPage(){
         
         <Container fluid>
         <TopCurve heading='Link Page'/>
+        <BackButton/>
         <Row>
             <Col>
             <Card style={{ width: '18rem' }}>
