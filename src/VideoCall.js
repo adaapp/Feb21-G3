@@ -41,9 +41,8 @@ function VideoCall(){
             <h6>Groups</h6>
             <Image width="200" className="rounded mx-auto d-block" src={groupIcon} />
             <Image width="200" className="rounded mx-auto d-block" src={doubleIcon} />
-            <Image width="200" className="rounded mx-auto d-block" src={mumIcon} />
             <Image width="200" className="rounded mx-auto d-block" src={dadIcon} onClick={callDad}/>
-            <Image width="200" className="rounded mx-auto d-block" src={doubleIcon} />
+            <Image width="200" className="rounded mx-auto d-block" src={mumIcon} />
 
             </div>
              </Col>
