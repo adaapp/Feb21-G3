@@ -9,16 +9,16 @@ import groupIcon from './assets/groupIcon.jpeg'
 import doubleIcon from './assets/doublepersoncall.jpeg'; 
 import mumIcon from './assets/mum.jpeg';
 import dadIcon from './assets/dadIcon.jpeg';
-import { useHistory} from 'react-router-dom';
+// import { useHistory } from 'react-router-dom';
 
 
 
-function pictoChat(){
-    let history = useHistory();
+function PictoDadChat(){
+    // let history = useHistory();
 
-    function navigateToChat(){
-		history.push(`/chat`)
-    }
+    // function callDad(){
+	// 	history.push(`/calldad`)
+    // }
 
 
 
@@ -44,7 +44,7 @@ function pictoChat(){
             <h3>Groups</h3>
             <Image width="200" className="rounded mx-auto d-block" src={groupIcon} />
             <Image width="200" className="rounded mx-auto d-block" src={doubleIcon} />
-            <Image width="200" className="rounded mx-auto d-block" src={dadIcon} onClick={navigateToChat}/>
+            <Image width="200" className="rounded mx-auto d-block" src={dadIcon} />
             <Image width="200" className="rounded mx-auto d-block" src={mumIcon} />
 
             </div>
@@ -57,4 +57,4 @@ function pictoChat(){
 }
 
 
-export default pictoChat;
+export default PictoDadChat;

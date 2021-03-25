@@ -6,6 +6,7 @@ import LinkPage from './LinkPage';
 import WebChat from './WebChat.js'
 import Games from './Games.js';
 import CallDad from './CallDad.js';
+import PictoDadChat from './PictoDadChat.js'
 
 const Routes = () => {
 	return (
@@ -15,6 +16,7 @@ const Routes = () => {
 				<Route path='/videocall' component={VideoCall} />
 				<Route path='/calldad' component={CallDad} />
 				<Route path='/webchat' component={WebChat} />
+				<Route path='/chat' component={PictoDadChat} />
 				<Route path='/games' component={Games} />
 				<Route path='/linkpage' component={LinkPage} />
 
