@@ -55,7 +55,6 @@ function VideoCall(){
             <Image width="200" className="rounded mx-auto d-block" src={doubleIcon} />
             <Image width="200" className="rounded mx-auto d-block" src={mumIcon} />
             <Image width="200" className="rounded mx-auto d-block" src={dadIcon} />
-            <Image width="200" className="rounded mx-auto d-block" src={doubleIcon} />
             </div>
              </Col>
         </Row>
