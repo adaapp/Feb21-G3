@@ -7,6 +7,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import TopCurve from './TopCurve.js'
 import BottomCurve from './BottomCurve.js'
+import BackButton from './BackButton.js';
 
 import adarescueIcon from './assets/adarescue.png';
 import fuzzballIcon from './assets/fuzzball.png';
@@ -19,6 +20,7 @@ function Games(){
     return(
         <Container fluid>
         <TopCurve heading = 'Games'/>
+        <BackButton/>
         
         <Row style={{"marginTop": '4rem'}}>
             <Col>

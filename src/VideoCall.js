@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image'
+import BackButton from './BackButton.js';
 import groupIcon from './assets/groupIcon.jpeg'
 import doubleIcon from './assets/doublepersoncall.jpeg'; 
 import mumIcon from './assets/mum.jpeg';
@@ -26,6 +27,8 @@ function VideoCall(){
         <div className="heading">
         <h1>Video Chat</h1>
         </div>
+        <BackButton/>
+        
         <Row>
             <Col className="video-first-col">
             <h5>Sign Language Translator</h5>
