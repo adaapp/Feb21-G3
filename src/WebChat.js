@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { useHistory} from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -9,11 +10,11 @@ import groupIcon from './assets/groupIcon.jpeg'
 import doubleIcon from './assets/doublepersoncall.jpeg'; 
 import mumIcon from './assets/mum.jpeg';
 import dadIcon from './assets/dadIcon.jpeg';
-import { useHistory} from 'react-router-dom';
 
 
 
-function pictoChat(){
+
+function PictoChat(){
     let history = useHistory();
 
     function navigateToChat(){
@@ -57,4 +58,4 @@ function pictoChat(){
 }
 
 
-export default pictoChat;
+export default PictoChat;

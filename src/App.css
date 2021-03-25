@@ -107,6 +107,38 @@
 }
 
 
+.picto-second-col{
+  background-color: white;
+  color:black;
+  
+}
+
+
+.message-sent{
+  background-color: #0099ff;
+  border-radius: 25px;
+  border:5px solid #0099ff;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+  width: 25%;
+  text-align: center;
+  
+
+}
+
+.message-received{
+  background-color: #0099ff;
+  border-radius: 25px;
+  border:5px solid #0099ff;
+  float: right;
+}
+
+.form{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30rem;
+  justify-content: space-evenly;
+}
 
 
 
