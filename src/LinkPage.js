@@ -27,7 +27,8 @@ function LinkPage(){
             <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={tabletIcon}/>
             <Card.Body>
-            <Button variant="primary" style={{"marginLeft": '1.2rem'}}>Redeem Your Free Tablet</Button>
+            <Button variant="primary" href= "https://www.gov.uk/government/news/free-tablets-to-improve-lives-of-thousands-of-people-with-learning-disabilities" target="_blank"
+             rel="noopener noreferrer" style={{"marginLeft": '0.7rem'}}>Redeem Your Free Tablet</Button>
              </Card.Body>
             </Card>
             </Col>
@@ -36,7 +37,8 @@ function LinkPage(){
             <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={pictographicIcon}/>
             <Card.Body>
-            <Button variant="primary" style={{"marginLeft": '2rem'}}>Pictographic Symbols</Button>
+            <Button variant="primary" href= "https://alphadogadasigns.com/do-you-need-pictograms-on-your-ada-signs/" target="_blank"
+             rel="noopener noreferrer" style={{"marginLeft": '2rem'}}>Pictographic Images</Button>
              </Card.Body>
             </Card>
             </Col>
@@ -45,7 +47,8 @@ function LinkPage(){
             <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={helpIcon}/>
             <Card.Body>
-            <Button variant="primary" style={{"marginLeft": '1.35rem'}} >Scope Advice & Support</Button>
+            <Button variant="primary" href= "https://www.scope.org.uk/" target="_blank"
+             rel="noopener noreferrer" style={{"marginLeft": '2.5rem'}}>Advice and Help</Button>
              </Card.Body>
             </Card>
             </Col>
@@ -54,7 +57,8 @@ function LinkPage(){
             <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={equipmentIcon}/>
             <Card.Body>
-            <Button variant="primary">Redeem Accessiblity Equipment</Button>
+            <Button variant="primary" href= "https://www.nhs.uk/conditions/social-care-and-support-guide/care-services-equipment-and-care-homes/household-gadgets-and-equipment-to-make-life-easier/" target="_blank"
+             rel="noopener noreferrer" style={{"marginLeft": '2rem'}}>Self Care equipment</Button>
              </Card.Body>
             </Card>
             </Col>
