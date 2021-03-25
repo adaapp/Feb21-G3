@@ -8,7 +8,7 @@ function BackButton(){
     let history = useHistory();
 
     function navigateToHomePage(){
-		history.push(`/`)
+		history.push(`/home`)
     }
 
     return(
