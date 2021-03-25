@@ -8,6 +8,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import './App.css';
 import { useHistory} from 'react-router-dom';
+import LogoutButton from './LogoutButton.js';
 import videoIcon from './assets/videoIcon.png';
 import keyboardIcon from './assets/keyboardIcon.jpg';
 import gamesIcon from './assets/gameIcon.png';
@@ -40,6 +41,7 @@ function HomePage(){
     return(        
         <Container fluid>
         <TopCurve heading = 'Home Page'/>
+        <LogoutButton/>
         
         <Row style={{"marginTop": '4rem'}}>
             <Col>
