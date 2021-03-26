@@ -35,10 +35,10 @@ function PictoChat(){
             <div className="contact-list">
             <h2>Contacts</h2>
             <div className='picto-contacts'>
-            <Image width="200" className="rounded mx-auto d-block" src={groupIcon} />
-            <Image width="200" className="rounded mx-auto d-block" src={doubleIcon} />
-            <Image width="200" className="rounded mx-auto d-block" src={dadIcon} onClick={navigateToChat}/>
-            <Image width="200" className="rounded mx-auto d-block" src={mumIcon} />
+            <Image width="200" height="200" className="rounded mx-auto d-block" src={groupIcon} />
+            <Image width="200" height="200" className="rounded mx-auto d-block" src={doubleIcon} />
+            <Image width="200" height="200" className="rounded mx-auto d-block" src={dadIcon} onClick={navigateToChat}/>
+            <Image width="200" height="200" className="rounded mx-auto d-block" src={mumIcon} />
             </div>
 
             </div>
