@@ -109,6 +109,12 @@
   text-align: center;
 }
 
+.picto-contacts{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50rem;
+  margin-top: 15rem;
+}
 
 .picto-second-col{
   background-color: white;

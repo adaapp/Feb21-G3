@@ -31,22 +31,15 @@ function PictoChat(){
         <BackButton/>
         
         <Row>
-            <Col className="video-first-col">
-            <h2>Pictures/Images</h2>
-            </Col>
-            <Col xs={6} className="video-second-col"> 
-            <div className="video-text">       
-             Click a contact to start a picto chat
-            </div>
-            </Col>
             <Col className="video-third-col">
             <div className="contact-list">
             <h2>Contacts</h2>
-            <h3>Groups</h3>
+            <div className='picto-contacts'>
             <Image width="200" className="rounded mx-auto d-block" src={groupIcon} />
             <Image width="200" className="rounded mx-auto d-block" src={doubleIcon} />
             <Image width="200" className="rounded mx-auto d-block" src={dadIcon} onClick={navigateToChat}/>
             <Image width="200" className="rounded mx-auto d-block" src={mumIcon} />
+            </div>
 
             </div>
              </Col>
