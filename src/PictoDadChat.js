@@ -31,7 +31,7 @@ function PictoDadChat(){
         <Row>
             <Col className="video-first-col">
             <h2>Pictures/Images</h2>
-            <Accordion defaultActiveKey="0">
+            <Accordion>
                 <Card>
                     <Card.Header>
                     <Accordion.Toggle as={Button} variant="link" eventKey="0">
@@ -73,27 +73,21 @@ function PictoDadChat(){
              <Image width="200"  style={{width:'100px',height:'100px',marginLeft:'1rem'}} src={thumbsUp}/>           
              </div>
 
-             <div className='form'>
-
-             
+             <div className='form'>            
 
              <div>
              <Form>
              <Form.Group controlId="text">
-                <Form.Control style={{height:'5rem'}}  type="text" placeholder="Type Here" />
+                <Form.Control style={{height:'5rem', width:'30rem'}}    type="text" placeholder="Type Here" />
              </Form.Group>
             
-             {/* <Button variant="primary" type="submit">
-                Send
-             </Button>
-             <Image width="200"  style={{width:'50px',height:'50px',marginLeft:'1rem'}} src={mic}/>             */}
-            
              </Form>
-             <Button variant="primary" type="submit">
+             </div>
+             <Button style={{height:'5rem', marginLeft:'3rem'}} variant="primary" type="submit">
                 Send
              </Button>
-             <Image width="200"  style={{width:'50px',height:'50px',marginLeft:'1rem'}} src={mic}/> 
-            </div>
+             <Image width="200"  style={{width:'70px',height:'70px',marginLeft:'3rem'}} src={mic}/> 
+            
             </div>
             </div>
              
