@@ -42,8 +42,8 @@ function VideoCall(){
             </Col>
             <Col xs={6} className="video-second-col"> 
             <div className= "call-contact">     
-            <Image width="900" style={{"marginLeft":'2.9rem',"marginTop": '3rem'}} src={dadFull} />
-            <Image width="700"  style={{"marginLeft":'10rem',"marginTop": '10rem'}} src={onButtons} onClick={navigateToVideoCall}/>
+            <Image width="700" className="rounded mx-auto d-block" style={{"marginTop": '3rem'}} src={dadFull} />
+            <Image width="600" className="rounded mx-auto d-block" style={{"marginTop": '10rem'}} src={onButtons} onClick={navigateToVideoCall}/>
                        
             </div>
             </Col>
