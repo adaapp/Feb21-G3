@@ -1,6 +1,7 @@
 import React from 'react';
 import TopCurve from './TopCurve.js';
 import BottomCurve from './BottomCurve.js'
+import SosButton from './SosButton.js'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -41,7 +42,12 @@ function HomePage(){
     return(        
         <Container fluid>
         <TopCurve heading = 'Home Page'/>
+        
         <LogoutButton/>
+        <div className= "sos-btn">
+        <SosButton/>
+        </div>
+        
         
         <Row style={{"marginTop": '4rem'}}>
             <Col>
